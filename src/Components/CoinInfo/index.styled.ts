@@ -9,6 +9,7 @@ export const Price = styled.p`
   font-family: monospace, sans-serif;
   font-weight: 400;
   font-size: 20px;
+  margin-bottom: 32px;
   & > span {
     font-size: 24px;
 

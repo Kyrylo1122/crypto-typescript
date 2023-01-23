@@ -1,7 +1,6 @@
 import React from "react";
 import { Box } from "../../Box";
-import { Title } from "../index.styled";
-import { Text } from "./index.styled";
+import { Title, Text } from "./index.styled";
 interface IProp {
   text: string;
 }

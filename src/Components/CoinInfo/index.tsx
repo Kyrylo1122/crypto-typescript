@@ -93,7 +93,9 @@ export default function CoinInfo() {
           flexDirection="column"
         >
           <Chart name={name} time={time} price={price} />
-          <TimeChartButtons time={time} setTime={setTime} />
+          <Box mt="16px">
+            <TimeChartButtons time={time} setTime={setTime} />
+          </Box>
         </Box>
 
         <Box as="section" id="Description">
