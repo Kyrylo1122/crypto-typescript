@@ -7,7 +7,7 @@ export default function Hero() {
     <Box
       as="section"
       display="flex"
-      p="300px 0 "
+      p="200px 0 "
       textAlign="left"
       backgroundColor="white"
     >
