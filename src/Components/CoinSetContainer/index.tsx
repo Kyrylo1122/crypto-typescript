@@ -22,7 +22,6 @@ const CoinSetContainer: React.FC = () => {
       .catch((error) => console.error(error))
       .finally(() => {
         setLoading(false);
-        window.scrollTo(0, document.body.scrollHeight);
       });
   }, [page]);
   if (loading) {

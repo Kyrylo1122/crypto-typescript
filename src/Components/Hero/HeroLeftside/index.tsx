@@ -10,8 +10,9 @@ export default function HeroLeftSide() {
         Jump start your crypto <br /> experience
       </HeroTitle>
       <HeroText>
-        Coininfo is the easiest place to get info about cryptocurrency. Sign up
-        and get started today.
+        Coininfo is the easiest place to get info about cryptocurrency.
+        <br />
+        Sign up and get started today.
       </HeroText>
       <HeroForm />
     </Box>

@@ -3,18 +3,16 @@ import CoinSetContainer from "../CoinSetContainer";
 import Container from "../Container";
 import Header from "../Header";
 import Hero from "../Hero";
-import { Main } from "./index.styled";
-
 
 const MainTag: React.FC = () => {
   return (
-    <Main>
+    <main>
       <Header />
       <Container>
         <Hero />
         <CoinSetContainer />
       </Container>
-    </Main>
+    </main>
   );
 };
 
